@@ -19,9 +19,9 @@
     under the License.
 
 -->
-<!DOCTYPE module PUBLIC
-  "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
-  "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+    <!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
 
 <module name="Checker">
   <property name="charset" value="UTF-8"/>
@@ -32,6 +32,11 @@
 
   <module name="NewlineAtEndOfFile">
     <property name="lineSeparator" value="lf"/>
+  </module>
+
+  <module name="LineLength">
+    <property name="max" value="120"/>
+    <property name="severity" value="warning"/>
   </module>
 
   <module name="RegexpMultiline">
@@ -99,11 +104,6 @@
       <message key="ws.notPreceded" value="WhitespaceAround: ''{0}'' is not preceded with whitespace."/>
     </module>
 
-    <module name="LineLength">
-      <property name="max" value="120"/>
-      <property name="severity" value="warning"/>
-    </module>
-
     <module name="OneStatementPerLine"/>
     <module name="MultipleVariableDeclarations"/>
     <module name="ArrayTypeStyle"/>
@@ -117,7 +117,7 @@
     <module name="ModifierOrder"/>
     <module name="EmptyLineSeparator">
       <property name="tokens"
-                value="IMPORT, CLASS_DEF, ENUM_DEF, INTERFACE_DEF, CTOR_DEF, METHOD_DEF, STATIC_INIT, INSTANCE_INIT"/>
+          value="IMPORT, CLASS_DEF, ENUM_DEF, INTERFACE_DEF, CTOR_DEF, METHOD_DEF, STATIC_INIT, INSTANCE_INIT"/>
     </module>
     <module name="SeparatorWrap">
       <property name="tokens" value="DOT"/>
@@ -132,13 +132,13 @@
     <module name="NoFinalizer"/>
     <module name="GenericWhitespace">
       <message key="ws.followed"
-               value="GenericWhitespace ''{0}'' is followed by whitespace."/>
+          value="GenericWhitespace ''{0}'' is followed by whitespace."/>
       <message key="ws.preceded"
-               value="GenericWhitespace ''{0}'' is preceded with whitespace."/>
+          value="GenericWhitespace ''{0}'' is preceded with whitespace."/>
       <message key="ws.illegalFollow"
-               value="GenericWhitespace ''{0}'' should be followed by whitespace."/>
+          value="GenericWhitespace ''{0}'' should be followed by whitespace."/>
       <message key="ws.notPreceded"
-               value="GenericWhitespace ''{0}'' is not preceded with whitespace."/>
+          value="GenericWhitespace ''{0}'' is not preceded with whitespace."/>
     </module>
 
     <module name="Indentation">
