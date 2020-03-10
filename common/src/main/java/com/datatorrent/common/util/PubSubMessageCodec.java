@@ -20,9 +20,7 @@ package com.datatorrent.common.util;
 
 import java.io.IOException;
 import java.util.HashMap;
-
 import org.codehaus.jackson.map.ObjectMapper;
-
 import com.datatorrent.common.util.PubSubMessage.PubSubMessageType;
 
 /**

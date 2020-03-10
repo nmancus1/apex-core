@@ -20,9 +20,7 @@ package com.datatorrent.common.metric.sum;
 
 import java.io.Serializable;
 import java.util.Collection;
-
 import com.datatorrent.api.annotation.Name;
-
 import com.datatorrent.common.metric.SingleMetricAggregator;
 
 /**

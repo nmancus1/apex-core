@@ -22,15 +22,12 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-
 import javax.validation.constraints.NotNull;
-
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
-
 import com.datatorrent.api.AutoMetric;
 import com.datatorrent.api.annotation.Name;
 

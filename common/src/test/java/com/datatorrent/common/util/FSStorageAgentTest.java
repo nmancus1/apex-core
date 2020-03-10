@@ -21,19 +21,15 @@ package com.datatorrent.common.util;
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
-
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.hadoop.fs.FileContext;
 import org.apache.hadoop.fs.Path;
-
 import com.google.common.collect.Maps;
-
 import com.datatorrent.api.Attribute;
 import com.datatorrent.api.DAG;
 

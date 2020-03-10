@@ -19,7 +19,6 @@
 package com.datatorrent.common.security.auth.callback;
 
 import java.io.IOException;
-
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.callback.NameCallback;
@@ -27,10 +26,8 @@ import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.TextOutputCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 import javax.security.sasl.RealmCallback;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.datatorrent.api.Component;
 import com.datatorrent.common.security.SecurityContext;
 

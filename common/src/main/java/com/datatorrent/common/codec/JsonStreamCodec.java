@@ -22,14 +22,12 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Map;
-
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.SerializerProvider;
 import org.codehaus.jackson.map.ser.std.SerializerBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.datatorrent.api.StreamCodec;
 import com.datatorrent.api.StringCodec;
 import com.datatorrent.common.util.JacksonObjectMapperProvider;

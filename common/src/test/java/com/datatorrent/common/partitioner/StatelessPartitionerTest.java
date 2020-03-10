@@ -20,12 +20,9 @@ package com.datatorrent.common.partitioner;
 
 import java.util.Collection;
 import java.util.List;
-
 import org.junit.Assert;
 import org.junit.Test;
-
 import com.google.common.collect.Lists;
-
 import com.datatorrent.api.Context.OperatorContext;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.api.DefaultPartition;

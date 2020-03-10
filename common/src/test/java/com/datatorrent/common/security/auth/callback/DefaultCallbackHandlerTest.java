@@ -20,16 +20,13 @@ package com.datatorrent.common.security.auth.callback;
 
 import java.io.IOException;
 import java.util.Collection;
-
 import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 import javax.security.sasl.RealmCallback;
-
 import org.junit.Assert;
 import org.junit.Test;
-
 import com.datatorrent.api.Attribute;
 
 /**

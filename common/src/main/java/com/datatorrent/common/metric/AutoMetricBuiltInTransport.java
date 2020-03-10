@@ -20,7 +20,6 @@ package com.datatorrent.common.metric;
 
 import java.io.IOException;
 import java.io.Serializable;
-
 import com.datatorrent.api.AutoMetric;
 
 /**

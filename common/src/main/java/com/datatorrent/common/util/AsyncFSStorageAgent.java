@@ -26,10 +26,8 @@ import java.io.InputStream;
 import java.io.ObjectStreamException;
 import java.nio.file.Files;
 import java.util.EnumSet;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.apache.apex.common.util.AsyncStorageAgent;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.CreateFlag;
@@ -38,7 +36,6 @@ import org.apache.hadoop.fs.FileUtil;
 import org.apache.hadoop.fs.Options;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IOUtils;
-
 import com.google.common.base.Throwables;
 
 /**
