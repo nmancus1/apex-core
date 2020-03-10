@@ -19,7 +19,6 @@
 package com.datatorrent.bufferserver.packet;
 
 import java.nio.ByteBuffer;
-
 import com.datatorrent.netlet.util.Slice;
 
 /**

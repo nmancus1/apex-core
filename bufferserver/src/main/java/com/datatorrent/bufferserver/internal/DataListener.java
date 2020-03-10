@@ -19,7 +19,6 @@
 package com.datatorrent.bufferserver.internal;
 
 import java.util.Collection;
-
 import com.datatorrent.bufferserver.util.BitVector;
 
 /**

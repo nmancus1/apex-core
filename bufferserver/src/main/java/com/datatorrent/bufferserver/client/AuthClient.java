@@ -19,7 +19,6 @@
 package com.datatorrent.bufferserver.client;
 
 import java.security.AccessControlException;
-
 import com.datatorrent.netlet.AbstractLengthPrependerClient;
 
 /**

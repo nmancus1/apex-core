@@ -19,7 +19,6 @@
 package com.datatorrent.bufferserver.packet;
 
 import org.testng.annotations.Test;
-
 import static org.testng.Assert.assertEquals;
 
 /**

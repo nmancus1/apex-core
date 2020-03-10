@@ -19,10 +19,8 @@
 package com.datatorrent.bufferserver.packet;
 
 import java.util.Arrays;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.datatorrent.bufferserver.util.Codec;
 import com.datatorrent.netlet.util.VarInt;
 

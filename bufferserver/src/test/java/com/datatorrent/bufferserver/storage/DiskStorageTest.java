@@ -19,11 +19,9 @@
 package com.datatorrent.bufferserver.storage;
 
 import java.net.InetSocketAddress;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.datatorrent.bufferserver.packet.BeginWindowTuple;
 import com.datatorrent.bufferserver.packet.EndWindowTuple;
 import com.datatorrent.bufferserver.packet.PayloadTuple;
@@ -32,7 +30,6 @@ import com.datatorrent.bufferserver.support.Controller;
 import com.datatorrent.bufferserver.support.Publisher;
 import com.datatorrent.bufferserver.support.Subscriber;
 import com.datatorrent.netlet.DefaultEventLoop;
-
 import static java.lang.Thread.sleep;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;

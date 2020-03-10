@@ -19,7 +19,6 @@
 package com.datatorrent.bufferserver.policy;
 
 import java.util.Set;
-
 import com.datatorrent.bufferserver.internal.PhysicalNode;
 import com.datatorrent.bufferserver.util.SerializedData;
 

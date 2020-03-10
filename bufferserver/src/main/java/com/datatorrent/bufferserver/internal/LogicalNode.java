@@ -20,10 +20,8 @@ package com.datatorrent.bufferserver.internal;
 
 import java.util.Collection;
 import java.util.HashSet;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.datatorrent.bufferserver.internal.DataList.DataListIterator;
 import com.datatorrent.bufferserver.packet.MessageType;
 import com.datatorrent.bufferserver.packet.Tuple;

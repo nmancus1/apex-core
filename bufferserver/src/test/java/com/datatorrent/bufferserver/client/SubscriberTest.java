@@ -22,14 +22,11 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.channels.CancelledKeyException;
 import java.util.concurrent.atomic.AtomicBoolean;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.datatorrent.bufferserver.packet.BeginWindowTuple;
 import com.datatorrent.bufferserver.packet.EndWindowTuple;
 import com.datatorrent.bufferserver.packet.PayloadTuple;
@@ -39,7 +36,6 @@ import com.datatorrent.bufferserver.support.Publisher;
 import com.datatorrent.bufferserver.support.Subscriber;
 import com.datatorrent.bufferserver.util.Codec;
 import com.datatorrent.netlet.DefaultEventLoop;
-
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
