@@ -789,7 +789,8 @@ public class Server extends AbstractServer
           }
           return true;
         }
-      } while (true);
+      }
+      while (true);
     }
 
     private boolean switchToNewBufferOrSuspendRead(final byte[] array, final int offset, final int size)
@@ -919,7 +920,8 @@ public class Server extends AbstractServer
         read(remainingCapacity);
 
         offset += remainingCapacity;
-      } while ((len -= remainingCapacity) > 0);
+      }
+      while ((len -= remainingCapacity) > 0);
     }
   }
 

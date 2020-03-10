@@ -20,7 +20,6 @@ package com.datatorrent.bufferserver.packet;
 
 import java.util.ArrayList;
 import org.testng.annotations.Test;
-
 import static com.datatorrent.bufferserver.packet.SubscribeRequestTuple.getSerializedRequest;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;

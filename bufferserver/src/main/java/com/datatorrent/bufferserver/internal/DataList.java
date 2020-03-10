@@ -128,7 +128,8 @@ public class DataList
                   numberOfInMemBlockRewound++;
                 }
               }
-            } while (temp.next != null);
+            }
+            while (temp.next != null);
             last.next = null;
             last.acquire(true);
           }
@@ -282,7 +283,8 @@ public class DataList
         }
         break;
       }
-    } while (true);
+    }
+    while (true);
 
     last.writingOffset = writeOffset;
 
