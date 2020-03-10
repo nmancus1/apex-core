@@ -20,7 +20,6 @@ package com.datatorrent.api;
 
 import org.apache.hadoop.classification.InterfaceStability;
 import org.apache.hadoop.conf.Configuration;
-
 import com.datatorrent.api.Context.PortContext;
 import com.datatorrent.api.DAG.GenericOperator;
 import com.datatorrent.api.Operator.InputPort;

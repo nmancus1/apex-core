@@ -22,9 +22,7 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.hadoop.classification.InterfaceStability.Evolving;
-
 import com.datatorrent.api.Attribute.AttributeMap;
 import com.datatorrent.api.Operator.ProcessingMode;
 import com.datatorrent.api.Operator.RecoveryMode;

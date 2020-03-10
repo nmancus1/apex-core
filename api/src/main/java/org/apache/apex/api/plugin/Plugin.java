@@ -19,7 +19,6 @@
 package org.apache.apex.api.plugin;
 
 import org.apache.hadoop.classification.InterfaceStability.Evolving;
-
 import com.datatorrent.api.Component;
 import com.datatorrent.api.Context;
 

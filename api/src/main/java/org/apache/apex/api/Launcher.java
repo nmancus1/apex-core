@@ -22,11 +22,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.ServiceLoader;
-
 import org.apache.hadoop.conf.Configuration;
-
 import com.google.common.base.Throwables;
-
 import com.datatorrent.api.Attribute;
 import com.datatorrent.api.StreamingApplication;
 

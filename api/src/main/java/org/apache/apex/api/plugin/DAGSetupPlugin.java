@@ -20,7 +20,6 @@ package org.apache.apex.api.plugin;
 
 import org.apache.hadoop.classification.InterfaceStability.Evolving;
 import org.apache.hadoop.conf.Configuration;
-
 import com.datatorrent.api.DAG;
 
 /**

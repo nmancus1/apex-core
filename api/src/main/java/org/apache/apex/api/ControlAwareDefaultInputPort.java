@@ -20,7 +20,6 @@ package org.apache.apex.api;
 
 import org.apache.apex.api.operator.ControlTuple;
 import org.apache.hadoop.classification.InterfaceStability;
-
 import com.datatorrent.api.ControlTupleEnabledSink;
 import com.datatorrent.api.DefaultInputPort;
 

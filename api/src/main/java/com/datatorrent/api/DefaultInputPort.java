@@ -19,7 +19,6 @@
 package com.datatorrent.api;
 
 import org.apache.hadoop.classification.InterfaceStability;
-
 import com.datatorrent.api.Context.PortContext;
 import com.datatorrent.api.Operator.InputPort;
 

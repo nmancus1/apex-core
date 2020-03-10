@@ -21,11 +21,8 @@ package com.datatorrent.api;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Map;
-
 import javax.annotation.Nonnull;
-
 import org.apache.hadoop.classification.InterfaceStability;
-
 import com.datatorrent.api.Context.DAGContext;
 import com.datatorrent.api.annotation.OperatorAnnotation;
 

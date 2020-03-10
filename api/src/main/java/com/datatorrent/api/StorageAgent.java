@@ -19,7 +19,6 @@
 package com.datatorrent.api;
 
 import java.io.IOException;
-
 import com.datatorrent.api.Attribute.AttributeMap;
 
 /**

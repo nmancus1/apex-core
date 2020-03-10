@@ -26,9 +26,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
 import com.google.common.base.Throwables;
-
 import static com.datatorrent.api.StreamingApplication.APEX_PREFIX;
 
 /**

@@ -19,7 +19,6 @@
 package org.apache.apex.api;
 
 import org.apache.hadoop.conf.Configuration;
-
 import com.datatorrent.api.Attribute;
 import com.datatorrent.api.DAG;
 import com.datatorrent.api.StreamingApplication;
